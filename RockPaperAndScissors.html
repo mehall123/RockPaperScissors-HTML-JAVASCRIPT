@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Rock Paper and Scissors </title>
+ 
+</head>  
+<body>  
+    <center> <h1> Rock, Paper and Scissors </h1> </center> 
+    <div class="container">
+	<center><h1 id="choice"> Please Click On An Image Below to Select Your Choice : </h1></center>
+         
+		    <center><gameButton id="rockBtn" onclick="gameFunction(1)"> <img src="images/rock.jpg" alt="Rock" style="width:100px;height:100px;"></gameButton>
+			<gameButton id="rockBtn" onclick="gameFunction(2)"> <img src="images/paper.jpg" alt="Paper" style="width:100px;height:100px;"></gameButton>
+			<gameButton id="rockBtn" onclick="gameFunction(3)"> <img src="images/scissors.jpg" alt="Scissors" style="width:100px;height:100px;"></gameButton></center>
+        
+	<center><h1 id="compChoice"> Computers Choice : </h1></center>
+       
+		    <center><gameButton id="compBtn"> <img id="compBtnImage" src="images/QM.jpg" alt="Rock" style="width:100px;height:100px;"></gameButton>
+			<h1 id="result"> Result: </h1>
+			<h1 id="score"> Player 0 - 0 Computer </h1>
+			<h1 id="gamesWon"> Games Won: </h1>
+			<h1 id="gameScore"> Player 0 - 0 Computer </h1></center>
+			
+        </div>    
+<script src="RockPaperAndScissors.js"></script>
+</body>   
+<center><footer>Copright Micheál O'Sullivan 2022</footer></center>
+</html>
